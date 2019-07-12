@@ -1,0 +1,11 @@
+{
+  "name": "eth-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ed Zynda",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^4.0.33",
+    "express": "^4.17.1"
+  }
+}

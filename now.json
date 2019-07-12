@@ -1,0 +1,23 @@
+{
+    "name": "Eth API",
+    "version": 2,
+    "builds": [
+        {
+            "src": "/index.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/get",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/set/([^/]+)",
+            "dest": "/index.js"
+        }
+    ],
+    "env": {
+        "MNEMONIC": "@mnemonic"
+    }
+}
